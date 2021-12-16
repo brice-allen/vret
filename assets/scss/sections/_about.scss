@@ -1,0 +1,148 @@
+// about
+.about {
+    padding: 120px 0;
+    background: url('../img/about-bg.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: $white;
+    border-radius: 200px 0 200px 0;
+    // z-index: 0;
+    &:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        background-color: $secondary-color;
+    }
+    &.about-3 {
+        &:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 30%;
+            height: 50%;
+            background: url('../img/banner-img-2.jpg') center bottom no-repeat;
+            background-size: 131%;
+            transform: scaleY(-1);
+            z-index: -1;
+            @include media-breakpoint-down(xl) {
+                display: none;
+            }
+        }
+    }
+    @include media-breakpoint-down(xl) {
+        border-radius: 150px 0 150px 0;
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 60px 0;
+        border-radius: 100px 0 100px 0;
+    }
+    @include media-breakpoint-down(sm) {
+        border-radius: 50px 0 50px 0;
+    }
+    .part-img {
+        position: relative;
+        left: -100px;
+        bottom: -100px;
+        transform: rotate(-50deg);
+        transition: all 1s ease-out;
+        transition-delay: .4s;
+        opacity: 0;
+        @include media-breakpoint-down(lg) {
+            padding-right: 30px;
+            opacity: 1;
+            left: 0;
+            bottom: 0;
+            transform: none;
+        }
+        @include media-breakpoint-down(md) {
+            padding: 0 15px;
+            margin-bottom: 30px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    &.active {
+        .part-img {
+            left: 0;
+            bottom: 0;
+            transform: rotate(0);
+            opacity: 1;
+        }
+    }
+    .part-text {
+        h3.subtitle {
+            color: $base-color;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 21px;
+            margin-top: -8px;
+            @include media-breakpoint-down(lg) {
+                margin-bottom: 11px;
+            }
+        }
+        h2.title {
+            color: $secondary-color;
+            font-size: 50px;
+            line-height: 55px;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-bottom: 34px;
+            @include media-breakpoint-down(xl) {
+                font-size: 45px;
+                line-height: 53px;
+            }
+            @include media-breakpoint-down(lg) {
+                font-size: 42px;
+                line-height: 52px;
+                margin-bottom: 24px;
+            }
+            @include media-breakpoint-down(sm) {
+                font-size: 30px;
+                line-height: 38px;
+                margin-bottom: 24px;
+            }
+        }
+        p {
+            color: $p-color;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        a.str-btn {
+            background: $base-color;
+            display: inline-block;
+            border: 2px solid $base-color;
+            color: $white;
+            font-weight: 500;
+            font-family: $body-font;
+            height: 60px;
+            line-height: 58px;
+            padding: 0 30px;
+            border-radius: 50px;
+            margin-top: 25px;
+            @include transition($transition);
+            i {
+                margin-left: 10px;
+            }
+            &:hover {
+                background: transparent;
+                color: $base-color;
+            }
+            @include media-breakpoint-down(lg) {
+                height: 50px;
+                line-height: 48px;
+                margin-top: 15px;
+            }
+            @include media-breakpoint-down(sm) {
+                margin-top: 15px;
+            }
+        }
+    }
+}

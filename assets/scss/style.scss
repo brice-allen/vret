@@ -1,0 +1,47 @@
+/* =================================
+ Temlate Name : Belki - Virtual Reality Investment HTML Template
+ Author Name : autworks
+ Date: 12/09/2021
+ Version: 1.0
+ =================================
+
+/* =================================
+ css index
+ =================================
+ *. typography
+ *. section title
+ *. preloader
+ *. scroll to top button
+ *. normalize
+ 1. header
+ 2. banner
+ 3. about
+ 4. howw to start
+ 5. referral
+ 6. calculator and statics
+ 7. pricing plan
+ 8. FAQ
+ 9. transaction
+ 10. footer
+
+================================= */
+
+// global assets scss
+@import "main/_breakpoints";
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+@import "main/_animation";
+
+//=Section scss
+@import "sections/_header";
+@import "sections/_banner";
+@import "sections/_about";
+@import "sections/_how-to-start";
+@import "sections/_referral";
+@import "sections/_calc-n-stat";
+@import "sections/_price-plan";
+@import "sections/_faq";
+@import "sections/_transaction";
+@import "sections/_footer";

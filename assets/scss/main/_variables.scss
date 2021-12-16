@@ -1,0 +1,71 @@
+// seon variable
+// $black: #000;
+// $color-1: #111111;
+// $color-2: #202020;
+// $color-3: #a61539;
+// $color-4: #080808;
+
+// gradient
+// $gradient-1: -webkit-linear-gradient(130deg, #ff416c, #ff4b2b);
+// $gradient-1-reverse: -webkit-linear-gradient(130deg, #ff4b2b, #ff416c);
+
+// breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+//== Template Main Color
+$base-color: #546dfc;
+$secondary-color: #16087f;
+$third-color: #ff9000;
+$p-color:#575564;
+$white: #fff;
+// $sbg-1:#f3f3f3;
+//== heading color
+$heading-color: #283659;
+$heading-color-2: #df0225;
+$descr-color: #3d5169;
+$subtitle-color: #101830;
+//== social color
+$facebook: #3b5999;
+$twitter: #55acee;
+$linkedin: #0077B5;
+$google-plus: #dd4b39;
+$pinterest: #bd081c;
+$youtube: #cd201f;
+$instagram: #e4405f;
+$dribbble: #ea4c89;
+$behance: #131418;
+$wordpress: #21759b;
+$skype: #00AFF0;
+
+/*==========================================
+    typography
+===========================================*/
+// fira sans 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$body-font: 'Heebo', sans-serif;
+$heading-font: 'Barlow Condensed', sans-serif;
+
+//== font sizes
+$base-font-size: 16px !default;
+$font-size-h1: 60px !default;
+$font-size-h2: 52px !default;
+$font-size-h3: 36px !default;
+$font-size-h4: 24px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.4 !default; // 24/15
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

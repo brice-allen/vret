@@ -1,0 +1,246 @@
+// footer
+.footer {
+    .footer-top {
+        background-color: $secondary-color;
+        border-radius: 200px 0px 0 0;
+        @include media-breakpoint-down(xl) {
+            border-radius: 150px 0px 0 0;
+        }
+        @include media-breakpoint-down(lg) {
+            border-radius: 100px 0px 0 0;
+        }
+        @include media-breakpoint-down(sm) {
+            border-radius: 50px 0px 0 0;
+        }
+        .payment-gateway {
+            padding: 90px 0 60px;
+            @include media-breakpoint-down(lg) {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                margin: -10px;
+                @media (max-width: 479px) and (min-width: 320px) {
+                    margin: -4px;
+                }
+                li {
+                    .single-gateway {
+                        background: #160f69;
+                        border: 1px solid #4b439e;
+                        border-radius: 5px;
+                        height: 88px;
+                        width: 88px;
+                        display: flex;
+                        flex-direction: column;
+                        place-content: space-around center;
+                        margin: 10px;
+                        flex-wrap: wrap;
+                        align-content: space-around;
+                        align-items: center;
+                        justify-content: space-around;
+                        @include transition($transition);
+                        padding: 10px 0;
+                        @media (max-width: 479px) and (min-width: 320px) {
+                            height: 68px;
+                            width: 68px;
+                            flex-wrap: nowrap;
+                            margin: 4px;
+                        }
+                        .part-icon {
+                            margin-bottom: 12px;
+                            max-height: 36px;
+                            img {
+                                @media (max-width: 479px) and (min-width: 320px) {
+                                    height: 100%;
+                                }
+                            }
+                            @media (max-width: 479px) and (min-width: 320px) {
+                                max-height: none;
+                                height: 30px;
+                            }
+                        }
+                        span.gateway-title {
+                            display: block;
+                            color: #8e95c0;
+                            font-weight: 400;
+                            margin: -5px 0 -4px;
+                            font-size: 14px;
+                            @media (max-width: 479px) and (min-width: 320px) {
+                                font-size: 12px;
+                            }
+                        }
+                        &:hover {
+                            border-color: #546dfc;
+                            background-color: #111638;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-contact-element {
+            background-color: #100142;
+            padding: 40px 50px;
+            margin-right: 50px;
+            @include media-breakpoint-down(xl) {
+                padding: 30px 40px;
+                margin-right: 0px;
+            }
+            @include media-breakpoint-down(lg) {
+                margin-right: 0;
+                margin-bottom: 40px;
+            }
+            .foot-logo {
+                margin-bottom: 30px;
+                @include media-breakpoint-down(xl) {
+                    margin-bottom: 45px;
+                }
+                a {
+                    display: inline-block;
+                    height: 34px;
+                    img {
+                        height: 100%;
+                        width: auto;
+                        max-width: none;
+                    }
+                }
+            }
+            .contact-info {
+                ul {
+                    li {
+                        display: flex;
+                        margin-bottom: 30px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        span.part-icon {
+                            width: 30px;
+                            margin-right: 35px;
+                            height: 30px;
+                            @include media-breakpoint-down(xl) {
+                                margin-right: 20px;
+                                height: 25px;
+                            }
+                            img {
+                                height: 100%;
+                                width: auto;
+                                max-width: none;
+                            }
+                        }
+                        .part-text {
+                            span {
+                                display: block;
+                                &.title {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                    font-weight: 500;
+                                    color: $white;
+                                    margin-bottom: 4px;
+                                    margin-top: -5px;
+                                }
+                                &.discr {
+                                    font-size: 20px;
+                                    font-family: $heading-font;
+                                    font-weight: 600;
+                                    line-height: 30px;
+                                    color: $white;    
+                                    margin-bottom: -5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }  
+        .useful-link {
+            margin-bottom: 40px;
+            @include media-breakpoint-down(xl) {
+                margin-bottom: 30px;
+            }
+            @include media-breakpoint-down(lg) {
+                margin-bottom: 35px;
+            }
+            &.first {
+                margin-left: -30px;
+                 @include media-breakpoint-down(xl) {
+                    margin-left: 0;
+                }
+            }
+            &.second {
+                margin-left: 20px;
+                @include media-breakpoint-down(xl) {
+                    margin-left: 0;
+                }
+                @include media-breakpoint-down(lg) {
+                    margin-bottom: 0;
+                }
+                @include media-breakpoint-down(md) {
+                    margin-bottom: 35px;
+                    margin-left: 20px;
+                }
+            }
+            h3.title {
+                font-size: 35px;
+                font-family: $heading-font;
+                line-height: 45px;
+                font-weight: 700;
+                color: $white;
+                margin-bottom: 26px;
+                margin-top: -11px;
+                @include media-breakpoint-down(xl) {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+                @include media-breakpoint-down(lg) {
+                    font-size: 27px;
+                    line-height: 37px;
+                }
+            }
+            ul {
+                li {    
+                    padding-bottom: 16px;
+                    a {
+                        color: $white;
+                        font-size: 15px;
+                        line-height: 25px;
+                        i {
+                            margin-right: 15px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .part-img {
+            margin-right: -65px;
+            @include media-breakpoint-down(xl) {
+                display: none;
+            }
+        }
+    }
+    .footer-bottom {
+        background-color: #100142;
+        p {
+            font-size: 15px;
+            color: #f0efef;
+            line-height: 25px;
+            font-weight: 400;
+            margin: 0;
+            @include media-breakpoint-down(sm) {
+                text-align: center;
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+        .part-img {
+            text-align: right;
+            padding: 20px 0;
+            @include media-breakpoint-down(sm) {
+                text-align: center;
+            }
+        }
+    }
+}
+  
+  

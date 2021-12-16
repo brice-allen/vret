@@ -1,0 +1,66 @@
+@keyframes rubber {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes rubber-2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes animation-3 {
+    0% {
+        transform: translateX(5px) translateY(5px);
+    }
+    50% {
+        transform: translateX(-5px) translateY(-5px);
+    }
+    100% {
+        transform: translateX(5px) translateY(5px);
+    }
+}
+@keyframes animation-4 {
+    0% {
+        transform: translateX(5px) translateY(-5px);
+    }
+    50% {
+        transform: translateX(-5px) translateY(5px);
+    }
+    100% {
+        transform: translateX(5px) translateY(-5px);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes popping-up {
+    0% {
+        width: 90px;
+        height: 90px;
+    }
+    50% {
+        width: 65px;
+        height: 65px;
+    }
+    100% {
+        width: 90px;
+        height: 90px;
+    }
+}

@@ -1,0 +1,261 @@
+// calc and statics
+.calc-n-static {
+    background: $secondary-color;
+    padding-top: 120px;
+    border-radius: 200px 0 200px 0;
+    @include media-breakpoint-down(xl) {
+        border-radius: 150px 0 150px 0;
+    }
+    @include media-breakpoint-down(lg) {
+        border-radius: 100px 0 100px 0;
+        padding-top: 60px;
+    }
+    @include media-breakpoint-down(sm) {
+        border-radius: 50px 0 50px 0;
+    }
+    .vr-calculator {
+        background-color: #21138f;
+        padding: 50px 60px;
+        border-radius: 10px;
+        @include media-breakpoint-down(xl) {
+            padding: 40px;
+        }
+        @include media-breakpoint-down(lg) {
+            padding: 40px 50px;
+        }
+        @include media-breakpoint-down(sm) {
+            padding: 20px 30px;
+        }
+        .single-box {
+            @include media-breakpoint-down(md) {
+                margin-bottom: 10px;
+                &.res2, &.res-eq, &.res-amnt {
+                    margin-bottom: 0;
+                }
+            }
+            span.title {
+                font-size: 18px;
+                line-height: 30px;
+                color: $white;
+                font-family: $heading-font;
+                font-weight: 500;
+                margin-bottom: 12px;
+                display: block;
+            }
+            &.res {
+                span.title {
+                    text-align: center;
+                    @include media-breakpoint-down(md) {
+                        text-align: left;
+                    }
+                }
+            }
+            span.equal {
+                color: $white;
+                font-size: 50px;
+                font-weight: 600;
+                font-family: $heading-font;
+                text-align: center;
+                display: block;
+                height: 60px;
+                line-height: 54px;
+                @include media-breakpoint-down(lg) {
+                    text-align: left;
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        left: 50px;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        height: 1px;
+                        background-color: $white;
+                        z-index: 2;
+                        opacity: .8;
+                        @include media-breakpoint-down(sm) {
+                            left: 35px;
+                        }
+                    }
+                }
+                @include media-breakpoint-down(sm) {
+                    font-size: 40px;
+                }
+            }
+            .dropdown button, input, .entered-amount, .d-profitted-amount, .total-profitted-amount {
+                height: 58px;
+                background: #16087f;
+                border: 1px solid #372aa0;
+                @include media-breakpoint-down(sm) {
+                    height: 48px;
+                }
+            }
+
+            .dropdown {
+                .dropdown-menu {
+                    li {
+                        .dropdown-item {
+                            font-size: 15px;
+                            font-weight: 500;
+                            padding: 10px 20px;
+                            border-bottom: 1px solid #d4d0ef;
+                            color: $secondary-color;
+                        }
+                        &:last-child {
+                            .dropdown-item {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                }
+                button {
+                    font-size: 15px;
+                    color: $white;
+                    width: 100%;
+                    text-align: left;
+                    padding: 0 20px;
+                    border-radius: 8px;
+                    position: relative;
+                    overflow: hidden;
+                    &:after {
+                        right: 15px;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                    &:before {
+                        position: absolute;
+                        content: '';
+                        top: 0;
+                        width: 38px;
+                        bottom: 0;
+                        background-color: #16087f;
+                        right: 0;
+                    }
+                }
+            } 
+            input {
+                font-size: 15px;
+                color: $white;
+                width: 100%;
+                padding: 0 20px;
+                border-radius: 8px;
+                @include transition($transition);
+                &:focus {
+                    border-color: #7867fd;
+                }
+            }
+
+            .d-profitted-amount, .total-profitted-amount {
+                padding: 0 20px;
+                border-radius: 8px;
+                border-radius: 8px;
+                line-height: 54px;
+                color: #ff8401;
+                font-family: $heading-font;
+                font-weight: 600;
+                font-size: 22px;
+                text-align: center;
+                @include media-breakpoint-down(md) {
+                    text-align: left;
+                }
+                @include media-breakpoint-down(sm) {
+                    line-height: 44px;
+                    font-size: 20px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .statics {
+        .part-img {
+            padding-right: 50px;
+            position: relative;
+            left: -100px;
+            top: -100px;
+            transition: all 1s ease-out;
+            transition-delay: .4s;
+            opacity: 0;
+            @include media-breakpoint-down(lg) {
+                padding-right: 0;
+                padding: 60px 50px 0;
+                left: 0;
+                top: 0;
+                opacity: 1;
+            }
+            @include media-breakpoint-down(md) {
+                padding-right: 0;
+                padding: 60px 15px 0;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        &.active {
+            .part-img {
+                left: 0;
+                top: 0;
+                opacity: 1;
+            }
+        }
+        .part-text {
+            padding: 120px 0 96px 30px;
+            @include media-breakpoint-down(lg) {
+                padding-left: 0;
+                padding-bottom: 36px;
+                padding-top: 60px;
+            }
+            .single-static {
+                background-color: #21138f;
+                border-radius: 10px;
+                margin-bottom: 24px;
+                text-align: center;
+                padding: 11px 0 21px;
+                border: 2px solid #21138f;
+                @include transition($transition);
+                span {
+                    display: block;
+                    &.stats-number {
+                        font-family: $heading-font;
+                        font-weight: 700;
+                        color: $white;
+                        font-size: 45px;
+                        margin-bottom: 7px;
+                        letter-spacing: 1px;
+                        @include media-breakpoint-down(lg) {
+                            font-size: 42px;
+                        }
+                        @include media-breakpoint-down(md) {
+                            font-size: 40px;
+                        }
+                        @include media-breakpoint-down(sm) {
+                            font-size: 30px;
+                            font-weight: 600;
+                            margin-bottom: 2px;
+                        }
+                    }
+                    &.stats-title {
+                        font-size: 14px;
+                        line-height: 26px;
+                        color: #d4d0ef;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        @include transition($transition);
+                        @include media-breakpoint-down(sm) {
+                            letter-spacing: 0;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+                &:hover {
+                    border-color: #77f0f8;
+                    border-radius: 15px 0 15px 0;
+                    .stats-title {
+                        color: #77f0f8;
+                    }
+                }
+            }
+        }
+    }
+}

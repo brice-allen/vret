@@ -1,0 +1,70 @@
+.faq {
+    padding: 120px 0 62px;
+    background: url("../img/how-to-start/how-to-start-bg.png") center center no-repeat;
+    background-color: $secondary-color;
+    background-size: cover;
+    border-radius: 200px 0 200px 0;
+    position: relative;
+    @include media-breakpoint-down(xl) {
+        border-radius: 150px 0 150px 0;
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 60px 0 2px;
+        border-radius: 100px 0 100px 0;
+    }
+    @include media-breakpoint-down(sm) {
+        border-radius: 50px 0 50px 0;
+    }
+    .container {
+        position: relative;
+    }
+    .part-img {
+        position: absolute;
+        left: calc(100% + 50px);
+        top: -50px;
+        z-index: 22;
+        width: 230px;
+        transition: all 1s ease-out;
+        transition-delay: .4s;
+        opacity: 0;
+        @include media-breakpoint-down(lg) {
+            top: 0;
+            left: 100%;
+            opacity: 1;
+        }
+    }
+    &.active {
+        .part-img {
+            top: 0;
+            left: 100%;
+            opacity: 1;
+        }
+    }
+    .single-faq {
+        margin-bottom: 50px;
+        @media (max-width: 575px) and (min-width: 480px) {
+            margin: 0 50px;
+            margin-bottom: 50px;
+        }
+        span.title {
+            color: $white;
+            font-size: 25px;
+            line-height: 35px;
+            font-family: $heading-font;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 15px;
+            margin-top: -9px;
+            @include transition($transition);
+        }
+        p {
+            color: #dfdbff;
+            line-height: 28px;
+        }
+        &:hover {
+            .title {
+                color: #ff9c00;
+            }
+        }
+    }
+}

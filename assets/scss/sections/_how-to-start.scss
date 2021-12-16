@@ -1,0 +1,61 @@
+// how to start
+.how-to-start {
+    padding: 120px 0 90px;
+    background: url('../img/how-to-start/how-to-start-bg.png') center center no-repeat;
+    background-color: $secondary-color;
+    background-size: cover;
+    border-radius: 200px 0 200px 0;
+    @include media-breakpoint-down(xl) {
+        border-radius: 150px 0 150px 0;
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 60px 0 36px;
+        border-radius: 100px 0 100px 0;
+    }
+    @include media-breakpoint-down(sm) {
+        border-radius: 50px 0 50px 0;
+    }
+    .single-way {
+        background: $white;
+        text-align: center;
+        padding: 40px 0;
+        border-radius: 15px;
+        padding-bottom: 19px;
+        border-bottom: 5px solid $white;
+        margin-bottom: 30px;
+        @include transition($transition);
+        &:hover {
+            border-bottom: 5px solid $third-color;
+        }
+        @include media-breakpoint-down(lg) {
+            margin-bottom: 24px;
+        }
+        .part-img {
+            margin-bottom: 31px;
+            img {
+                width: auto;
+                max-width: none;
+                height: 140px;
+                @include media-breakpoint-down(xl) {
+                    height: 100px;
+                }
+                @include media-breakpoint-down(sm) {
+                    height: 80px;
+                }
+            }
+        }
+        .part-text {
+            h4.title {
+                font-size: 26px;
+                line-height: 36px;
+                color: $secondary-color;
+                font-weight: 600;
+                text-transform: capitalize;
+                @include media-breakpoint-down(sm) {
+                    font-size: 20px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+}
