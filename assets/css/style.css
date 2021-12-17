@@ -1,5 +1,5 @@
 /* =================================
- Temlate Name : Belki - Virtual Reality Investment HTML Template
+ Temlate Name : VRET - Virtual Reality Investment HTML Template
  Author Name : autworks
  Date: 12/09/2021
  Version: 1.0
@@ -1681,12 +1681,12 @@ ul {
   }
 }
 .calc-n-static .statics .part-text .single-static {
-  background-color: #21138f;
+  background-color: #463F1A;
   border-radius: 10px;
   margin-bottom: 24px;
   text-align: center;
   padding: 11px 0 21px;
-  border: 2px solid #21138f;
+  border: 2px solid #463F1A;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }

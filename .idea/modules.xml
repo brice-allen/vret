@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Belki.iml" filepath="$PROJECT_DIR$/.idea/Belki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../VRET/.idea/VRET.iml" filepath="$PROJECT_DIR$/../VRET/.idea/VRET.iml" />
     </modules>
   </component>
 </project>
