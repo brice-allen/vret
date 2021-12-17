@@ -101,14 +101,14 @@ span {
   }
 }
 .section-title.style-2 h2 {
-  color: #16087f;
+  color: #183059;
 }
 .section-title.style-2 h2:after {
   content: url("../img/section-border2.png");
 }
 
 .back-to-top-btn a {
-  background: #16087f;
+  background: #183059;
   border: none;
   display: inline-block;
   padding: 10px;
@@ -146,7 +146,7 @@ span {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #546dfc;
+  background: #B9D6F2;
   z-index: -1;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -159,11 +159,11 @@ span {
   height: 100%;
   width: 100%;
   z-index: 999;
-  background-color: #16087f;
+  background-color: #183059;
 }
 
 .loader {
-  background-color: #546dfc;
+  background-color: #B9D6F2;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -184,7 +184,7 @@ span {
 .loader:before,
 .loader:after {
   content: "";
-  background-color: #16087f;
+  background-color: #183059;
   width: 100%;
   height: 100%;
   -webkit-transform-origin: center bottom;
@@ -502,7 +502,7 @@ ul {
 }
 .header.header-fixed {
   position: fixed;
-  background-color: #546dfc;
+  background-color: #B9D6F2;
   -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
   border-bottom-color: transparent;
@@ -535,8 +535,8 @@ ul {
   border-color: #fff;
 }
 .header.header-fixed .starter-btn:hover {
-  border-color: #16087f;
-  background-color: #16087f;
+  border-color: #183059;
+  background-color: #183059;
 }
 .header.header-2 {
   border-bottom: none;
@@ -557,7 +557,7 @@ ul {
   top: 0;
   right: -20px;
   bottom: 0;
-  background-color: #546dfc;
+  background-color: #B9D6F2;
   border-radius: 15px;
   z-index: -1;
 }
@@ -579,8 +579,8 @@ ul {
   border-color: #fff;
 }
 .header.header-2 .starter-btn:hover {
-  border-color: #16087f;
-  background-color: #16087f;
+  border-color: #183059;
+  background-color: #183059;
 }
 .header.header-3 {
   border-bottom-color: transparent;
@@ -605,7 +605,7 @@ ul {
 @media (max-width: 991.98px) {
   .header {
     position: relative;
-    background-color: #16087f;
+    background-color: #183059;
   }
 }
 .header .logo a {
@@ -731,7 +731,7 @@ ul {
   }
 }
 .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #546dfc;
+  color: #B9D6F2;
 }
 .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:hover:before {
   width: 70%;
@@ -762,7 +762,7 @@ ul {
     font-weight: 500;
     font-size: 19px;
     text-transform: capitalize;
-    color: #16087f;
+    color: #183059;
   }
   .header .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
     visibility: visible;
@@ -781,11 +781,11 @@ ul {
     font-weight: 500;
     font-size: 19px;
     text-transform: capitalize;
-    color: #16087f;
+    color: #183059;
   }
 }
 .header .starter-btn {
-  border: 2px solid #546dfc;
+  border: 2px solid #B9D6F2;
   height: 60px;
   line-height: 58px;
   padding: 0 35px;
@@ -796,7 +796,7 @@ ul {
   transition: all 0.3s ease-in;
 }
 .header .starter-btn:hover {
-  background-color: #546dfc;
+  background-color: #B9D6F2;
 }
 .header .starter-btn i {
   margin-left: 10px;
@@ -810,7 +810,7 @@ ul {
 .banner {
   background: url("../img/banner-bg-shape.png") top left no-repeat;
   background-size: cover;
-  background-color: #16087f;
+  background-color: #183059;
   position: relative;
   border-radius: 0 0 200px 0;
   overflow: hidden;
@@ -835,7 +835,7 @@ ul {
 .banner.banner-3 {
   background: url("../img/banner-bg-shape2.png") top left no-repeat;
   background-size: cover;
-  background-color: #16087f;
+  background-color: #183059;
 }
 .banner.banner-3 .banner-3-img {
   position: absolute;
@@ -979,9 +979,9 @@ ul {
   }
 }
 .banner .part-text a.banner-btn {
-  background: #546dfc;
+  background: #B9D6F2;
   display: inline-block;
-  border: 2px solid #546dfc;
+  border: 2px solid #B9D6F2;
   color: #fff;
   font-weight: 500;
   font-family: "Heebo", sans-serif;
@@ -1050,7 +1050,7 @@ ul {
   width: 100%;
   height: 100%;
   z-index: -2;
-  background-color: #16087f;
+  background-color: #183059;
 }
 .about.about-3:before {
   position: absolute;
@@ -1125,7 +1125,7 @@ ul {
   opacity: 1;
 }
 .about .part-text h3.subtitle {
-  color: #546dfc;
+  color: #B9D6F2;
   font-weight: 600;
   text-transform: capitalize;
   font-size: 20px;
@@ -1139,7 +1139,7 @@ ul {
   }
 }
 .about .part-text h2.title {
-  color: #16087f;
+  color: #183059;
   font-size: 50px;
   line-height: 55px;
   font-weight: 700;
@@ -1172,9 +1172,9 @@ ul {
   line-height: 28px;
 }
 .about .part-text a.str-btn {
-  background: #546dfc;
+  background: #B9D6F2;
   display: inline-block;
-  border: 2px solid #546dfc;
+  border: 2px solid #B9D6F2;
   color: #fff;
   font-weight: 500;
   font-family: "Heebo", sans-serif;
@@ -1191,7 +1191,7 @@ ul {
 }
 .about .part-text a.str-btn:hover {
   background: transparent;
-  color: #546dfc;
+  color: #B9D6F2;
 }
 @media (max-width: 991.98px) {
   .about .part-text a.str-btn {
@@ -1209,7 +1209,7 @@ ul {
 .how-to-start {
   padding: 120px 0 90px;
   background: url("../img/how-to-start/how-to-start-bg.png") center center no-repeat;
-  background-color: #16087f;
+  background-color: #183059;
   background-size: cover;
   border-radius: 200px 0 200px 0;
 }
@@ -1269,7 +1269,7 @@ ul {
 .how-to-start .single-way .part-text h4.title {
   font-size: 26px;
   line-height: 36px;
-  color: #16087f;
+  color: #183059;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -1318,7 +1318,7 @@ ul {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #16087f;
+  background-color: #183059;
 }
 @media (max-width: 1199.98px) {
   .referral {
@@ -1370,7 +1370,7 @@ ul {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #16087f;
+  color: #183059;
 }
 @media (max-width: 575.98px) {
   .referral .percentage-list .single-level .part-text .title {
@@ -1451,7 +1451,7 @@ ul {
 }
 
 .calc-n-static {
-  background: #16087f;
+  background: #183059;
   padding-top: 120px;
   border-radius: 200px 0 200px 0;
 }
@@ -1557,7 +1557,7 @@ ul {
 }
 .calc-n-static .vr-calculator .single-box .dropdown button, .calc-n-static .vr-calculator .single-box input, .calc-n-static .vr-calculator .single-box .entered-amount, .calc-n-static .vr-calculator .single-box .d-profitted-amount, .calc-n-static .vr-calculator .single-box .total-profitted-amount {
   height: 58px;
-  background: #16087f;
+  background: #183059;
   border: 1px solid #372aa0;
 }
 @media (max-width: 575.98px) {
@@ -1570,7 +1570,7 @@ ul {
   font-weight: 500;
   padding: 10px 20px;
   border-bottom: 1px solid #d4d0ef;
-  color: #16087f;
+  color: #183059;
 }
 .calc-n-static .vr-calculator .single-box .dropdown .dropdown-menu li:last-child .dropdown-item {
   border-bottom: none;
@@ -1598,7 +1598,7 @@ ul {
   top: 0;
   width: 38px;
   bottom: 0;
-  background-color: #16087f;
+  background-color: #183059;
   right: 0;
 }
 .calc-n-static .vr-calculator .single-box input {
@@ -1773,7 +1773,7 @@ ul {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #16087f;
+  background-color: #183059;
 }
 .price .single-price {
   background-color: #f9f8ff;
@@ -1797,7 +1797,7 @@ ul {
   }
 }
 .price .single-price:hover {
-  border-color: #546dfc;
+  border-color: #B9D6F2;
 }
 .price .single-price .part-head .plan-name {
   background-color: #e4e2f9;
@@ -1830,7 +1830,7 @@ ul {
   line-height: 37px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
-  color: #16087f;
+  color: #183059;
   margin: 31px 0 26px;
   padding: 0 10px;
 }
@@ -1891,9 +1891,9 @@ ul {
   margin-top: 30px;
 }
 .price .single-price .part-foot a.price-btn {
-  background: #546dfc;
+  background: #B9D6F2;
   display: inline-block;
-  border: 2px solid #546dfc;
+  border: 2px solid #B9D6F2;
   color: #fff;
   font-weight: 500;
   font-family: "Heebo", sans-serif;
@@ -1908,8 +1908,8 @@ ul {
   margin-left: 10px;
 }
 .price .single-price .part-foot a.price-btn:hover {
-  background: #16087f;
-  border-color: #16087f;
+  background: #183059;
+  border-color: #183059;
 }
 @media (max-width: 767.98px) {
   .price .single-price .part-foot a.price-btn {
@@ -1921,7 +1921,7 @@ ul {
 .faq {
   padding: 120px 0 62px;
   background: url("../img/how-to-start/how-to-start-bg.png") center center no-repeat;
-  background-color: #16087f;
+  background-color: #183059;
   background-size: cover;
   border-radius: 200px 0 200px 0;
   position: relative;
@@ -1995,7 +1995,7 @@ ul {
   line-height: 28px;
 }
 .faq .single-faq:hover .title {
-  color: #ff9c00;
+  color: #F8F991;
 }
 
 .transaction {
@@ -2029,7 +2029,7 @@ ul {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #16087f;
+  background-color: #183059;
 }
 .transaction .single-transaction {
   background-color: #f9f8ff;
@@ -2056,7 +2056,7 @@ ul {
   }
 }
 .transaction .single-transaction:hover {
-  border-color: #546dfc;
+  border-color: #B9D6F2;
   -webkit-box-shadow: 0px 18px 35px 0px rgba(22, 8, 127, 0.08);
           box-shadow: 0px 18px 35px 0px rgba(22, 8, 127, 0.08);
 }
@@ -2065,7 +2065,7 @@ ul {
   line-height: 40px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
-  color: #16087f;
+  color: #183059;
   margin: -9px 0 26px;
 }
 .transaction .single-transaction span.subtitle {
@@ -2073,7 +2073,7 @@ ul {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #16087f;
+  color: #183059;
   padding: 6px 20px;
   border-radius: 50px;
   letter-spacing: 1px;
@@ -2096,7 +2096,7 @@ ul {
   margin-bottom: 0;
 }
 .transaction .single-transaction .transc-table .table thead {
-  background-color: #16087f;
+  background-color: #183059;
 }
 .transaction .single-transaction .transc-table .table thead tr th {
   text-align: left;
@@ -2122,7 +2122,7 @@ ul {
   padding: 0;
   padding-left: 25px;
   font-size: 15px;
-  color: #16087f;
+  color: #183059;
   height: 50px;
   vertical-align: middle;
 }
@@ -2138,7 +2138,7 @@ ul {
   font-size: 15px;
   vertical-align: middle;
   height: 50px;
-  color: #16087f;
+  color: #183059;
 }
 .transaction .single-transaction .transc-table .table tbody tr td:last-child {
   padding-right: 15px;
@@ -2153,7 +2153,7 @@ ul {
 }
 
 .footer .footer-top {
-  background-color: #16087f;
+  background-color: #183059;
   border-radius: 200px 0px 0 0;
 }
 @media (max-width: 1199.98px) {
@@ -2258,11 +2258,11 @@ ul {
   }
 }
 .footer .footer-top .payment-gateway ul li .single-gateway:hover {
-  border-color: #546dfc;
-  background-color: #111638;
+  border-color: #B9D6F2;
+  background-color: #183059;
 }
 .footer .footer-top .footer-contact-element {
-  background-color: #100142;
+  background-color: #183059;
   padding: 40px 50px;
   margin-right: 50px;
 }
@@ -2421,7 +2421,7 @@ ul {
   }
 }
 .footer .footer-bottom {
-  background-color: #100142;
+  background-color: #183059;
 }
 .footer .footer-bottom p {
   font-size: 15px;
